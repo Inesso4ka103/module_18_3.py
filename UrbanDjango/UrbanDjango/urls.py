@@ -30,6 +30,5 @@ from task4.views import platform, book, cart, menu
 urlpatterns = [
     path('platform/', platform),
     path('platform/book/', book),
-    path('platform/cart/', cart),
-    path('menu/', menu)
+    path('platform/cart/', cart)
 ]
